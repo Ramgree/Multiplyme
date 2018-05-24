@@ -29,4 +29,8 @@ public class History {
             System.err.println("Viga ajaloo kirjutamisel!");
         }
     }
+    
+   public void clear(){
+        entries.clear();
+    }
 }
